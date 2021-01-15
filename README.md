@@ -11,7 +11,7 @@ Geographical distance can be seen as an objective measure of potential language 
 [2] R Core Team (2019). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna,
   Austria. URL https://www.R-project.org/.  
 [3] Hijmans, R. J. (2019). geosphere: Spherical Trigonometry. R package version 1.5-10. https://CRAN.R-project.org/package=geosphere  
-[43] Paradis E. & Schliep K. (2018). ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R. Bioinformatics 35:
+[4] Paradis E. & Schliep K. (2018). ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R. Bioinformatics 35:
   526-528.  
 [5] Saitou, N. & Nei, M. (1987). The neighbor-joining method: a new method for reconstructing phylogenetic trees. Molecular Biology and Evolution, Vol.4(4): 406–425  
 [6] Vincenty, T. (1975a). Direct and inverse solutions of geodesics on the ellipsoid with application of nested equations. Surv Rev 23(176): 88–93  
