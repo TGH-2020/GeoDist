@@ -2,6 +2,10 @@ The underlying data to create a tree of geographical distances between Tupían l
 The coordinates of Kamayura and Awetí share the smallest calculated distance of 15.08 km between them - at least if the distance between Zoró and Gavião is not considered as latter share the same coordinates. Conversely, the largest distance is 4344.43 km between the coordinates of Cocama-Cocamilla and Tupinambá.  
 Geographical distance can be seen as an objective measure of potential language contacts in the past and the present. Apart from common descent and partly also sound symbolism, geographical distances can therefore contribute to explain similarities - or dissimilarities, e.g. in the case of two languages belonging to the same language family - between languages [7].
 
+* Languages.csv contains the language data downloaded from [TuLeD](http://tuled.org)
+* code.R contains the R code to creathe a distance matrix and an output in Newick format
+* 
+
 ### References
 [1] R Core Team (2019). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna,
   Austria. URL https://www.R-project.org/.  
