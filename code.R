@@ -17,5 +17,9 @@ dimnames(GeoDist_Mat) <- list(Coord$name, Coord$name)
 # Tree inferred with balanced NJ-algorithm. "Ladderize" re-arranges the tree. 
 GeoDist_Tree <- ladderize(nj(GeoDist_Mat)) 
 
+# Inspect tree
+# plot(GeoDist_Tree, cex = 0.8, main="Tree based on geographical distances (in km)")
+# axisPhylo() 
+
 # Transform data of type "phylo" into a Newick file. " file="" " displays the Newick string in the console, adding a path saves it as '.nwk'.
 write.tree(GeoDist_Tree, file = "", append = FALSE, digits = 10, tree.names = FALSE)
