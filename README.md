@@ -14,5 +14,5 @@ Geographical distance can be seen as an objective measure of potential language 
   526-528.  
 [4] Saitou, N. & Nei, M. (1987). The neighbor-joining method: a new method for reconstructing phylogenetic trees. Molecular Biology and Evolution, Vol.4(4): 406–425  
 [5] Vincenty, T. (1975a). Direct and inverse solutions of geodesics on the ellipsoid with application of nested equations. Surv Rev 23(176): 88–93 
-[6] Letunic, I. & Bork, P. (2019). Interactive Tree Of Life. Nucleic Acids Res 47(1): 256-259. https://doi.org/10.1093/nar/gkz239
+[6] Letunic, I. & Bork, P. (2019). Interactive Tree Of Life. Nucleic Acids Res 47(1): 256-259. https://doi.org/10.1093/nar/gkz239  
 [7] Jäger, G. (2018). Global-scale phylogenetic linguistic inference from lexical resources. Sci Data 5(180189). https://doi.org/10.1038/sdata.2018.189
