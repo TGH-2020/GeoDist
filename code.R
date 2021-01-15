@@ -3,7 +3,7 @@ library(geosphere)
 library(ape)
 
 # Read file.
-Coord <- read.csv(file="../Languages.csv", header=TRUE, encoding="UTF-8")
+Coord <- read.csv(file="./Languages.csv", header=TRUE, encoding="UTF-8")
 
 # Create matrix with all longitudes followed by all latitudes, format it for the "distm" function from the geosphere package.
 Coord_mat <- matrix(c(Coord$longitude, Coord$latitude), ncol=2)
@@ -18,4 +18,4 @@ dimnames(GeoDist_Mat) <- list(Coord$name, Coord$name)
 GeoDist_Tree <- ladderize(nj(GeoDist_Mat)) 
 
 # Transform data of type "phylo" into a Newick file. " file="" " displays the Newick string in the console, adding a path saves it as '.nwk'.
-write.tree(ExampleTree, file = "", append = FALSE, digits = 10, tree.names = FALSE)
+write.tree(GeoDist_Tree, file = "", append = FALSE, digits = 10, tree.names = FALSE)
